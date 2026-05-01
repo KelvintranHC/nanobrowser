@@ -1,4 +1,5 @@
 {
   "buildCommand": "pnpm build --filter @extension/sidepanel...",
-  "outputDirectory": "dist/side-panel"
+  "outputDirectory": "dist/side-panel",
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
 }
