@@ -1,0 +1,4 @@
+{
+  "buildCommand": "pnpm build --filter @extension/sidepanel...",
+  "outputDirectory": "pages/side-panel/dist"
+}
